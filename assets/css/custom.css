@@ -139,3 +139,10 @@ a {
 .pricingTable.red:hover .price-value {
   color: #fff;
 }
+marquee {
+  width: 100%;
+  font-size: 30px;
+  padding-top: 25px;
+  background-color: black;
+  color: white;
+}

@@ -157,6 +157,30 @@
     <!-- Package start -->
     <div class="container">
       <h2 class="text-center mb-5 my-lg-5" id="our-package">Our package</h2>
+      <!-- Toast start -->
+      <!-- Toast start -->
+      <div
+        role="figure"
+        aria-live="assertive"
+        aria-atomic="true"
+        class="toast"
+        data-bs-autohide="false"
+      >
+        <div class="toast-body">
+          <img src="..." class="rounded me-2" alt="..." />
+          <strong class="me-auto">Bootstrap</strong>
+          <small>11 mins ago</small>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="toast-body">Hello, world! This is a toast message.</div>
+      </div>
+      <!-- Toast end -->
+      <!-- Toast end -->
       <div
         class="d-flex flex-column flex-lg-row justify-content-lg-center align-items-center"
       >
@@ -209,7 +233,7 @@
         <div class="w-lg-25 w-75">
           <div class="pricingTable blue best-deal">
             <span
-              class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger"
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
               >Best deal</span
             >
             <div class="pricingTable-header">
@@ -372,6 +396,87 @@
       </div>
     </section>
     <!-- FAQ end -->
+    <!-- Contact section start -->
+    <setion class="container">
+      <h2 class="text-center mb-5 my-lg-5" id="our-package">Contact us</h2>
+      <div class="d-flex flex-column align-items-center">
+        <div class="">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-instagram-square"></i>
+          <i class="fab fa-youtube-square"></i>
+        </div>
+        <!-- Modal start -->
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever="@mdo"
+        >
+          Send a message
+        </button>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label"
+                      >Your email:</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="recipient-name"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label"
+                      >Message:</label
+                    >
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-dismiss="modal"
+                >
+                  Send message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal end -->
+      </div>
+    </setion>
+    <!-- Contact section end -->
     <!-- Bootstrap JS bundle -->
     <script src="assets/js/bootstrap.bundle.js"></script>
   </body>

@@ -155,3 +155,7 @@ marquee {
   background-color: black;
   color: white;
 }
+/* Icon sizing */
+.fab {
+  font-size: 50px;
+}

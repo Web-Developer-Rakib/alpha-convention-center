@@ -164,3 +164,7 @@ marquee {
   transform: scale(110%);
   box-shadow: rgba(0, 0, 0, 0.616) 0px 5px 15px;
 }
+/* Toast */
+.toast-c {
+  bottom: 35%;
+}

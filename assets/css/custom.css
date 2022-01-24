@@ -139,6 +139,7 @@ a {
 .pricingTable.red:hover .price-value {
   color: #fff;
 }
+/* Winter discount */
 marquee {
   width: 100%;
   font-size: 30px;

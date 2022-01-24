@@ -139,6 +139,14 @@ a {
 .pricingTable.red:hover .price-value {
   color: #fff;
 }
+.best-deal {
+  transform: scale(110%);
+  margin-bottom: 55px;
+  box-shadow: #4b64ff 0px 5px 15px;
+}
+.best-deal:hover {
+  transform: scale(120%);
+}
 /* Winter discount */
 marquee {
   width: 100%;

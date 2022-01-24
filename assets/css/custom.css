@@ -159,12 +159,25 @@ marquee {
 .fab {
   font-size: 50px;
   transition: 0.5s ease;
+  color: black;
 }
 .fab:hover {
   transform: scale(110%);
   box-shadow: rgba(0, 0, 0, 0.616) 0px 5px 15px;
 }
 /* Toast */
-.toast-c {
+.toast-custom {
   bottom: 35%;
+}
+/* Custom button */
+.custom-btn-bg {
+  background: linear-gradient(
+    0deg,
+    rgba(8, 7, 7, 1) 0%,
+    rgba(207, 195, 195, 1) 100%
+  );
+  border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
 }
